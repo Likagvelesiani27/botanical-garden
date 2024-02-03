@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || Typography */
+
+.logo-title {
+    color: var(--Primary, #343D33);
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+}
+
+.logo-small-title {
+    color: var(--Gray-1, #333);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+
+.menu-typo {
+    color: var(--text-body-copy, #414840);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.home-membership-btns-color {
+    color: var(--Primary, #475F45);
+    background-color: #ffffff;
+}
+
+.adventure-title-typo {
+    color: var(--Header-text, #343D33);
+    font-family: "Libre Baskerville", serif;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.adventure-text-typo {
+    color: var(--text-body-copy, #414840);
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+
+.buy-tickets-color {
+    background-color: #475F45;
+    color: #ffffff;
+}
+
+.learn-more-btn-typo {
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.discover-title-typo {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.Discover-text-typo {
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 16px;
+}
+
+.news-title-typo {
+    color: var(--Header-text, #343D33);
+    font-family: "Libre Baskerville", serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.line {
+    width: 131px;
+    height: 2px;
+    opacity: 0.4;
+    background: var(--Primary, #475F45);
+}
+
+.plants-around-title-typo {
+    color: var(--Primary, #475F45);
+    font-family: "Libre Baskerville", serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.plants-around-text-typo {
+    color: var(--text-body-copy, #414840);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 0 5px 0;
+
+}
+
+.plants-around-date-typo {
+    color: var(--Header-text, #343D33);
+    font-style: italic;
+}
+
+.footer-logo-title-typo {
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-logo-text-typo {
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.123px;
+}
+
+.footer-white-text {
+    color: #ffffff;
+}
+
+.sitemap-typo {
+    color: var(--white, #FFF);
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.sitemap-list-item {
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copy-rights-typo {
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 20px;
+}
+
+/* || Header */
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 14px 101px 15px 99px;
+}
+
+.header-content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 141px;
+    flex-wrap: wrap;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    padding-right: 1px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    background-color: greenyellow;
+}
+
+
+.membership {
+    display: flex;
+    padding: 15px 30px;
+    border: 2px solid var(--Primary, #475F45);
+}
+
+/* || Main */
+
+.adventure-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 56px 0 115px 0;
+}
+
+.adventure-content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adventure-small-wrapper {
+    display: flex;
+    max-width: 528px;
+    flex-direction: column;
+}
+
+.tickets-wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.tickets {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid var(--Primary, #475F45);
+    margin-top: 32px;
+}
+
+.discover-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0 96px 0;
+    background-color: #343D33;
+    background-image: url("media/plant.png");
+    background-repeat: no-repeat;
+    background-position: right 0px top 325px;
+}
+
+.discover-content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.discover-nature-wrapper {
+    display: flex;
+    gap: 89px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.learn-more-btn {
+    display: flex;
+    padding: 20px 40px;
+    border: 2px solid var(--white, #FFF);
+    margin-top: 32px;
+}
+
+.Discover-small-wrapper {
+    max-width: 417px;
+}
+
+.news-wrapper {
+    display: flex;
+    padding: 96px 0 96px 0;
+    justify-content: center;
+    background-image: url("media/plant2.png");
+    background-repeat: no-repeat;
+    background-position: top -180px right 130px;
+}
+
+.news-content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.arrow-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 20px;
+}
+
+.news-content-small-wrapper {
+    display: flex;
+    gap: 49px;
+    flex-wrap: wrap;
+}
+
+.plants-around-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plants-around-text-wrapper {
+    display: flex;
+    max-width: 471px;
+    flex-direction: column;
+    margin: 20px 24px;
+}
+
+
+.lush-gardens-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lush-gardens-first-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.lush-gardens-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 354px;
+    margin: 0 20px 0 20px;
+}
+
+.long-line {
+    display: flex;
+    height: 1px;
+    background: var(--light-gray, #C4C4C4);
+}
+
+/* || Footer */
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    background: var(--text-body-copy, #414840);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    gap: 263px;
+    padding: 48px 0 40px 0;
+}
+
+.footer-logo-wrapper {
+    display: flex;
+    max-width: 269px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.sitemap-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sitemap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 32px;
+}
+
+.copy-rights-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #343D33;
+    flex-wrap: wrap;
+}
